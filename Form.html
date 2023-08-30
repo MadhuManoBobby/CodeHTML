@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="mailto:madhumano3022@gmail.com" method="post" autocomplete="off" target="_blank" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="username">Enter Your UserName: </label></td>
+                <td><input type="text" name="username" id="username" placeholder="username" autofocus size="50px" required/><br></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter Your Password: </label></td>
+                <td><input type="password" name="password" id="password" placeholder="password"/><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter Your Email:</label></td>
+                <td><input type="email" name="email" id="email"><br></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Choose Your DOB</label>
+                </td>
+                <td>
+                    <input type="date" name="" id="" value="1995-01-01" min="1990-01-01" max="2000-31-12">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                <label for="">Enter Your Mobile Number</label>
+            </td>
+            <td>
+                <input type="tel" name="" id="" pattern="[6-9]{1}[0-9]{9}">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="">Enter Your Pincode</label>
+            </td>
+            <td>
+                <input type="tel" name="" id="" pattern="[0-9]{6}">
+            </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Choose Your Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="male">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender" id="gender" value="female">
+                    <label for="">Female</label>
+                    <input type="radio" name="gender" id="gender" value="others">
+                    <label for="">Others</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="district">Select Your District: </label></td>
+                <td><select name="" id="">
+                <option value="">Select Your District</option>
+                <optgroup label="North District">
+                <option value="chennai">Chennai</option>
+                <option value="villupuram">Villupuram</option>
+                <option value="kanchipuram">Kanchipuram</option>
+            </optgroup>
+            <optgroup label="South District">
+                <option value="Madurai">Madurai</option>
+                <option value="Thrichy">Thrichy</option>
+                <option value="Kanyakumari">Kanyakumari</option>
+            </optgroup>
+            </select></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="image">Upload your Aadhar</label>
+                </td>
+                <td>
+                    <input type="file" name="image" id="image" accept=".pdf,.jpg">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Upload your Educational Documents</label>
+                </td>
+                <td>
+                    <input type="file" name="file" id="file" accept=".docx,.pdf" multiple>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="salary">Choose Your Expected Salary</label>
+                </td>
+                <td>
+                    <input type="range" name="salary" id="salary" min="300000" max="1000000" step="25000" value="25000" oninput="this.nextElementSibling.value=this.value">
+                    <output>30000</output>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Select your MotherTongue: </label>
+                </td>
+                <td>
+                    <input list="langs" name="" id="">
+                </td>
+            </tr>
+            <tr><td>
+              <label for="">Feel free to Give Your Feedback</label>
+            </td>
+             <td>
+                <textarea name="" id="" cols="20" rows="5"></textarea>
+             </td>
+        </tr>
+                <td>
+                    <datalist id="langs">
+                      <option value="Tamil"></option>>
+                      <option value="Malayalam"></option>>
+                      <option value="English"></option>>
+
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Choose your favourite Sport</legend>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Volley Ball</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Basket Ball</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Cricket</label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register"></td>
+                
+            
+            <tr>
+    </table>
+    </form>
+</body>
+</html>
